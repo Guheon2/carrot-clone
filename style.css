@@ -1,0 +1,99 @@
+header {
+  display: flex;
+  align-items: center;
+  font-size: larger;
+  font-weight: bolder;
+  margin-left: 12px;
+}
+.logo {
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 8rem;
+  height: 3.5rem;
+}
+.container {
+  width: 600px;
+  display: flex;
+  padding-top: 0;
+  padding-right: 40px;
+  padding-bottom: 0;
+  padding-left: 40px;
+  justify-content: space-between;
+  color: #4d5159;
+}
+#first {
+  color: rgb(255, 125, 0);
+}
+.buttons {
+  display: flex;
+  padding-left: 20px;
+}
+
+input {
+  background-color: rgb(242 243 246);
+  border: none;
+  border-radius: 0.6rem;
+  height: 50px;
+  width: 300px;
+  margin-left: 30px;
+  text-align: left;
+  padding-left: 12px;
+}
+button {
+  height: 50px;
+  width: 120px;
+  border: solid 2px rgb(242 243 246);
+  border-radius: 0.6rem;
+  margin-left: 15px;
+  font-weight: bold;
+  background-color: white;
+}
+
+span {
+  display: inline-flex;
+  flex-direction: column;
+}
+main {
+  background-color: rgb(246, 246, 246);
+}
+h1 {
+  margin: 0px;
+  text-align: center;
+}
+#winia {
+  width: 30%;
+
+  box-sizing: border-box;
+  border-radius: 12px;
+  border: 1px solid transparent;
+}
+#bike {
+  width: 30%;
+  box-sizing: border-box;
+  border-radius: 12px;
+  border: 1px solid transparent;
+}
+#nintendo {
+  width: 30%;
+  box-sizing: border-box;
+  border-radius: 12px;
+  border: 1px solid transparent;
+}
+#ipad {
+  width: 30%;
+  box-sizing: border-box;
+  border-radius: 12px;
+  border: 1px solid transparent;
+}
+#watch5 {
+  width: 30%;
+  box-sizing: border-box;
+  border-radius: 12px;
+  border: 1px solid transparent;
+}
+#max {
+  width: 30%;
+  box-sizing: border-box;
+  border-radius: 12px;
+  border: 1px solid transparent;
+}
