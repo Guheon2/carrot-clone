@@ -14,11 +14,12 @@
   <body>
     <div class="header">
       <header>
-        <img
-          class="logo"
-          src="https://img.etnews.com/photonews/2102/1382175_20210205144517_149_0001.jpg"
-          alt="dangguen market image"
-        />
+        <a href="carrot market.html" target="blank">
+          <img
+            class="logo"
+            src="https://img.etnews.com/photonews/2102/1382175_20210205144517_149_0001.jpg"
+            alt="dangguen market image"
+        /></a>
         <div class="container">
           <div id="first">중고거래</div>
           <div>동네가게</div>
@@ -33,54 +34,149 @@
             placeholder="물품이나 동네를 검색해보세요.
       "
           />
-          <button type="button" value="검색하기">검색하기</button>
+          <button type="submit" onclick="alert('검색어를 입력하세요!')">
+            검색하기
+          </button>
         </div>
       </header>
     </div>
     <main>
       <h1>중고거래 인기매물</h1>
-
-      <span id="winia">
-        <img
-          class="joonggo1"
-          src="https://dnvefa72aowie.cloudfront.net/origin/article/202306/36936f1e88a4fa1f74f327c25158462e38f21747d0d88e66594f20e0a7427c1f_0.webp?q=95&s=1440x1440&t=inside"
-          alt="joonggo1"
-        />위니아 제습기<br />
-        50,000원 <br />인천 부평구 부평1동</span
-      >
-      <span id="bike">
-        <img
-          class="joonggo2"
-          src="https://bikesell.co.kr/SITE/BOARD/UP_NEWS/KakaoTalk_20210319_202946762_11.jpg"
-          alt="joonggo2"
-        />
-        중고 자전거 <br />150,000원 <br />안산시 단원구 초지동</span
-      >
-      <span id="nintendo">
-        <img
-          src="https://web54.pro/wp-content/uploads/2023/02/switch1.png"
-          alt="joonggo3"
-        />닌텐도 스위치 <br />330,000원 <br />고양시 일산서구 대화동</span
-      >
-      <span id="ipad">
-        <img
-          src="https://image.newsis.com/2022/04/22/NISI20220422_0000981000_web.jpg?rnd=20220422155715"
-          alt="joonggo3"
-        />아이패드 에어 5 <br />430,000원 <br />김포시 운양동</span
-      >
-      <span id="watch5">
-        <img
-          src="http://res.heraldm.com/content/image/2022/08/15/20220815000059_0.jpg"
-          alt="joonggo3"
-        />갤럭시워치 5 <br />150,000원 <br />강남구 대치동</span
-      >
-      <span id="max">
-        <img
-          src="https://d2u3dcdbebyaiu.cloudfront.net/uploads/atch_img/705/73dd1754380d195cd5cb072ed4834f97_res.jpeg"
-          alt="joonggo3"
-        />에어팟 맥스 <br />650,000원 <br />강남구 서초동</span
-      >
+      <div class="card-wrap">
+        <article class="card-top">
+          <div class="card-img">
+            <img
+              src="https://image.production.fruitsfamily.com/public/product/resized%40width1125/nvpsOQG9_E-35A11897-9B4C-4A08-B546-27B8789B4E5F.jpg"
+              alt="joonggo1"
+              width="250px"
+              height="300px"
+            />
+          </div>
+          <div class="card-desc">
+            <h2 class="card-title">아크테릭스 헬리아드</h2>
+            <div class="card-price">170,000원</div>
+            <div class="card-region">성동구 행당동</div>
+          </div>
+        </article>
+        <article class="card-top">
+          <div class="card-img">
+            <img
+              src="https://bikesell.co.kr/SITE/BOARD/UP_NEWS/KakaoTalk_20210319_202946762_11.jpg"
+              alt="joonggo2"
+              width="250px"
+              height="300px"
+            />
+          </div>
+          <div class="card-desc">
+            <h2 class="card-title">중고 자전거</h2>
+            <div class="card-price">390,000원</div>
+            <div class="card-region">안산시 단원구 초지동</div>
+          </div>
+        </article>
+        <article class="card-top">
+          <div class="card-img">
+            <img
+              src="https://web54.pro/wp-content/uploads/2023/02/switch1.png"
+              alt="joonggo3"
+              width="250px"
+              height="300px"
+            />
+          </div>
+          <div class="card-desc">
+            <h2 class="card-title">닌텐도 스위치</h2>
+            <div class="card-price">350,000원</div>
+            <div class="card-region">일산시 서구 대곡동</div>
+          </div>
+        </article>
+        <article class="card-top">
+          <div class="card-img">
+            <img
+              src="https://image.newsis.com/2022/04/22/NISI20220422_0000981000_web.jpg?rnd=20220422155715"
+              alt="joonggo3"
+              width="250px"
+              height="300px"
+            />
+          </div>
+          <div class="card-desc">
+            <h2 class="card-title">아이패드 에어5</h2>
+            <div class="card-price">430,000원</div>
+            <div class="card-region">김포시 운양동</div>
+          </div>
+        </article>
+        <article class="card-top">
+          <div class="card-img">
+            <img
+              src="http://res.heraldm.com/content/image/2022/08/15/20220815000059_0.jpg"
+              alt="joonggo3"
+              width="250px"
+              height="300px"
+            />
+          </div>
+          <div class="card-desc">
+            <h2 class="card-title">갤럭시 워치5</h2>
+            <div class="card-price">220,000원</div>
+            <div class="card-region">화성시 새솔동</div>
+          </div>
+        </article>
+        <article class="card-top">
+          <div class="card-img">
+            <img
+              src="https://d2u3dcdbebyaiu.cloudfront.net/uploads/atch_img/705/73dd1754380d195cd5cb072ed4834f97_res.jpeg"
+              alt="joonggo3"
+              width="250px"
+              height="300px"
+            />
+          </div>
+          <div class="card-desc">
+            <h2 class="card-title">에어팟 맥스</h2>
+            <div class="card-price">650,000원</div>
+            <div class="card-region">강남구 대치동</div>
+          </div>
+        </article>
+        <article class="card-top">
+          <div class="card-img">
+            <img
+              src="https://media.bunjang.co.kr/product/192841205_1_1657201408_w856.jpg"
+              alt="joonggo3"
+              width="250px"
+              height="300px"
+            />
+          </div>
+          <div class="card-desc">
+            <h2 class="card-title">다이슨 에어랩</h2>
+            <div class="card-price">400,000원</div>
+            <div class="card-region">김포시 장기동</div>
+          </div>
+        </article>
+        <article class="card-top">
+          <div class="card-img">
+            <img
+              src="https://img.ssfshop.com/cmd/LK_600x800/src/https://img.ssfshop.com/god_god_evl/20/10/24/55570613295420.jpg"
+              alt="joonggo3"
+              width="250px"
+              height="300px"
+            />
+          </div>
+          <div class="card-desc">
+            <h2 class="card-title">살로몬 신발</h2>
+            <div class="card-price">170,000원</div>
+            <div class="card-region">동작구 신대방동</div>
+          </div>
+        </article>
+      </div>
+      <h4 class="more-info">인기매물 더 보기</h4>
     </main>
+    <h4 class="hot-contents">중고거래 인기검색어</h4>
+    <div class="keyword">
+      <div>자전거</div>
+      <div>의자</div>
+      <div>냉장고</div>
+      <div>모니터</div>
+      <div>책상</div>
+      <div>아이폰</div>
+      <div>아이패드</div>
+      <div>가방</div>
+    </div>
     <footer></footer>
   </body>
 </html>

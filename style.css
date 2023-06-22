@@ -3,7 +3,8 @@ header {
   align-items: center;
   font-size: larger;
   font-weight: bolder;
-  margin-left: 12px;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 .logo {
   padding-left: 20px;
@@ -15,12 +16,13 @@ header {
   width: 600px;
   display: flex;
   padding-top: 0;
-  padding-right: 40px;
+  padding-right: 60px;
   padding-bottom: 0;
-  padding-left: 40px;
+  padding-left: 30px;
   justify-content: space-between;
   color: #4d5159;
 }
+
 #first {
   color: rgb(255, 125, 0);
 }
@@ -49,51 +51,82 @@ button {
   background-color: white;
 }
 
-span {
-  display: inline-flex;
-  flex-direction: column;
-}
 main {
+  padding-left: 150px;
+  padding-right: 150px;
   background-color: rgb(246, 246, 246);
 }
 h1 {
-  margin: 0px;
+  padding-top: 80px;
+  margin-top: 0px;
+  margin-bottom: 90px;
   text-align: center;
+  font-weight: 900;
+  font-size: 250%;
 }
-#winia {
-  width: 30%;
+.card-wrap {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100%;
+}
 
-  box-sizing: border-box;
+.card-img {
+  width: 100%;
+  height: auto;
+  position: relative;
+  overflow: hidden;
   border-radius: 12px;
-  border: 1px solid transparent;
+  background-color: #f8f9fa;
+  box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.15);
+  box-sizing: border-box;
 }
-#bike {
-  width: 30%;
-  box-sizing: border-box;
-  border-radius: 12px;
-  border: 1px solid transparent;
+.card-title {
+  font-size: 16px;
+  letter-spacing: -0.02px;
+  color: #212529;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  margin-bottom: 4px;
+  line-height: 1.5;
+  font-weight: normal;
 }
-#nintendo {
-  width: 30%;
-  box-sizing: border-box;
-  border-radius: 12px;
-  border: 1px solid transparent;
+.card-price {
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1.5;
+  margin-bottom: 4px;
 }
-#ipad {
-  width: 30%;
-  box-sizing: border-box;
-  border-radius: 12px;
-  border: 1px solid transparent;
+.card-region {
+  font-size: 13px;
+  color: #212529;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  margin-bottom: 4px;
+  line-height: 1.5;
 }
-#watch5 {
-  width: 30%;
-  box-sizing: border-box;
-  border-radius: 12px;
-  border: 1px solid transparent;
+.card-top {
+  width: 250px;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-bottom: 45px;
 }
-#max {
-  width: 30%;
-  box-sizing: border-box;
-  border-radius: 12px;
-  border: 1px solid transparent;
+.more-info {
+  text-align: center;
+  text-decoration: underline;
+  padding-bottom: 100px;
+}
+.hot-contents {
+  text-align: center;
+  text-decoration: underline;
+}
+.keyword {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0px 150px 0 150px;
+
+  padding-left: 80px;
+  padding-right: 80px;
 }
